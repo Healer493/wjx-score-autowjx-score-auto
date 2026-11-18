@@ -1,0 +1,15 @@
+{
+ "_说明": "证书配置。主题按课程体系区分：red=环球商务英语（矢量重绘），blue=经典英语（矢量重绘）。新增级别只需在 levels 里加一行，theme 由 series 决定，也可在级别里直接写 theme 覆盖。level_en=红色证书正文里的级别英文；level_no=蓝色证书徽章与正文里的数字级别。",
+ "series": {
+  "business": { "theme": "red",  "title": "环球商务英语" },
+  "classic":  { "theme": "blue", "title": "经典英语" }
+ },
+ "levels": {
+  "A2": { "series": "business", "level_en": "Elementary Level." },
+  "B1": { "series": "business", "level_en": "Intermediate Level." },
+  "B2": { "series": "business", "level_en": "Upper-Intermediate Level." }
+ },
+ "_blue示例": {
+  "L9": { "series": "classic", "level_no": 9 }
+ }
+}
